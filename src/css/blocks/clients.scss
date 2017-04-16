@@ -1,0 +1,35 @@
+.clients{
+	width:100%;
+	height:240px;
+	background-color:#FFFFFF;
+				&__title{
+						width:1000px;
+						margin:auto;
+					  	display: flex;
+					  		span{
+					  			margin-top:55px;
+					  			font-size:30px;
+					  			color:#626262;
+					  			}
+					  		}			
+			&__logo{
+				width:825px;
+				height:240px;
+				margin:auto;
+				display:flex;
+				  			&__client{
+				  				width:100%;
+				  				margin-top:150px;
+				  				padding-right:50px;
+				  				text-align:center;
+				  				img{
+				  					margin-top:-20px;
+									display: block;
+       								 border: none;
+				  				}
+	
+									
+					}	
+				
+			}
+}

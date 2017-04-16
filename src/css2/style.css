@@ -1,0 +1,182 @@
+html, body{
+margin: 0;
+padding: 0;
+}
+
+/*..............HEADER........*/
+header{
+  width:100%;
+  height:120px;
+  background-color:#FFFFFF;
+}
+.container{
+  width:1000px;
+  height:100%;
+  margin: 0 auto;
+  display: flex;
+  flex:nowrap;
+  flex-direction:row;
+  justify-content: space-between;
+
+}
+.logo img{
+  width:47px;
+  height:47px;
+  margin-top:30px;
+
+}
+.logo-text{
+  width: 130px;
+  height: 25px;
+  color: #31333E;
+  margin-top:40px;
+
+}
+nav{
+
+
+}
+nav ul{
+  padding: 0;
+  margin-top: 50px;
+  display: flex;
+
+}
+nav ul li{
+  list-style:none;
+   border-left: 2px solid #ACACAC;
+    margin-left: 26px;
+    padding-left: 20px;
+}
+nav ul li a{
+  color:#626262;
+
+}
+.search input{
+  width:130px;
+  height: 30px;
+padding: 0;
+margin-top: 50px;
+background-color:#F1F3F6;
+border: none;
+font-style:italic;
+}
+.fa fa-search{
+position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.wrapper{
+    width:100%;
+    height:100%;
+     display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+
+    }
+
+    .logo img{
+        width: 47px;
+        height: 47px;
+    }
+
+    .nav{
+      float: left;
+    }
+    .nav ul li{
+      display: inline; 
+      margin-right: 5px; 
+      padding: 3px;
+      list-style: none;
+      text-decoration:none;
+
+    }
+    .flex-container{
+      width:1000px;
+      height:120px;
+   -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    }
+
+*/
+
+
+/*
+
+.header{
+  width:100%;
+  height:12em;
+  background-color:white;
+}
+.container{
+  width:100%;
+  height: 80em;
+  background-color: blue;
+}
+.mainBaner{
+   width:100%;
+  height: 25em;
+  background-color: black;
+}
+.content{
+   width:100%;
+  height:20em;
+  background-color: grey;
+}
+.portfolio{
+   width:100%;
+  height:25em;
+  background-color: yellow;
+}
+.clients{
+   width:100%;
+  height:10em;
+  background-color:violet;
+}
+
+.footer {
+  height:10em;
+  background-color:green;
+
+}
+img{
+  height:8em;
+  width:auto;
+}*/

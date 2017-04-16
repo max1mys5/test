@@ -1,0 +1,45 @@
+.main-banner{
+	width:100%;
+	height: 550px;
+	background-color: #31333E;
+
+}
+.banner{
+	width: 900px;
+	height: 550px;
+	  margin: 0 auto;
+  display: flex;
+  flex:nowrap;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.banner-title span{
+	margin-top: 70px;
+	font-size: 36px;
+	font-family: 'Myriad Pro';
+	color:#FFF;
+	display: flex;
+}
+
+.learn-button{
+	width:220px;
+	height:60px;
+	background-color:#00AEFF;
+
+	float:right;
+	margin-top: 60px;
+	border-radius:3px;
+	text-align: center;
+}
+.learn-botton span{
+	padding-top: 20px;
+}
+.learn-button span a{
+	font-family:'PTSans';
+	font-size: 22px;
+	color:#fff;
+}
+.mac-booc{
+
+}

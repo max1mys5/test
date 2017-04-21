@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-  "start": npm istall && npm install bower && bower install && gulp
+  "start": "npm istall && npm install bower && bower install && gulp"
   },
   "author": "",
   "license": "ISC",

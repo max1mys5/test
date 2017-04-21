@@ -71,7 +71,11 @@
     input[type="search"]::-webkit-input-placeholder {
                                            padding-left:10px;
                                            }
-}
+                                           
+                                           .fa-facebook-official::before{
+                                            background-color:white;
+                                  }
+                                }
 
 // .lesson__page{
 // 	margin-bottom: 40px;
